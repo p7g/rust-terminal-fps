@@ -7,9 +7,9 @@ use winapi::um::wincon;
 use winapi::um::winuser;
 
 const FORWARD: char = 'W';
-const BACKWARD: char = 'R';
+const BACKWARD: char = 'S';
 const LEFT: char = 'A';
-const RIGHT: char = 'S';
+const RIGHT: char = 'D';
 
 const SCREEN_WIDTH: usize = 120;
 const SCREEN_HEIGHT: usize = 40;
